@@ -41,4 +41,10 @@ public class Dolgozo{
     public int getMunkaToltEv() {
         return MunkaToltEv;
     }
+
+    @Override
+    public String toString() {
+        return "Dolgozo{" + "Nev=" + Nev + ", Neme=" + Neme + ", Kor=" + Kor + ", MunkaToltEv=" + MunkaToltEv + '}';
+    }
+    
 }

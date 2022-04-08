@@ -1,4 +1,6 @@
+Roli;20;F;2
 Péter;21;F
 Pál;18;F;5
-Petra;22;L;2
+Viki;20;L;2
+Petra;22;L;8
 Éva;33;L
