@@ -8,7 +8,14 @@ public class Vizsgafelkeszito {
         Eszkoz kecske = new Eszkoz("kecske", 100);
         Eszkoz kutya = new Eszkoz("kutya", 100);
         
-        Harcos h = new Harcos("Ha", "Kutya", 100, 100);
+        Harcos h = new Harcos("Harcsa", 100, 100);
+        System.out.println(h);
+        Harcos h1 = new Harcos("Ha", 1000, 1000);
+        System.out.println(h1);
+        Harcos h2 = new Harcos("Kacsa", 1200, 1020);
+        System.out.println(h2);
+        Harcos h3 = new Harcos("Tücsök", 1030, 1300);
+        System.out.println(h3);
         h.felvesz(kapa);
         h.felvesz(aso);
         h.felvesz(kecske);

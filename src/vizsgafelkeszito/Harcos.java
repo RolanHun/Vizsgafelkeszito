@@ -7,12 +7,16 @@ public class Harcos extends Karakter{
     private double ugyesseg;
     private ArrayList<Eszkoz> eszkozok;
     
+    public Harcos(String nev, double ero, double ugyesseg) throws Exception {
+        this(nev, "Ember", ero, ugyesseg);
+    }
     public Harcos(String nev, String faj, double ero, double ugyesseg) throws Exception {
         super(nev, faj);
         this.ero = ero;
         this.ugyesseg = ugyesseg;
         eszkozok = new ArrayList<>();
     }
+    
     public void felvesz(Eszkoz eszkoz){
         eszkozok.add(eszkoz);
     }
