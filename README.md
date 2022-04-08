@@ -1,1 +1,2 @@
-# Vizsgafelkeszito
+# Vizsgafelkészítő
+Bartók Roland
